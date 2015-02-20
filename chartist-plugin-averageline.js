@@ -45,7 +45,6 @@
         });
 
         chart.on('created', function(data) {
-            console.log(data);
             
             // Initiate Y axis
             var axisY = new Chartist.LinearScaleAxis(
